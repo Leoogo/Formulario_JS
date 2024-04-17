@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticar - Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="background-img"></div>
+    <div class="container">
+        <h1>Multiplique dois números diferentes</h1>
+        <h2>Sendo B maior que A</h2>
+        <form id="formNumbers">
+            <input type="number" id="numA" placeholder="A" required>
+            <p class="x"><b>X</b></p>
+            <input type="number" id="numB" placeholder="B" required>             
+            <p class="igual"><b>=</b></p>
+            <p id="resultado"></p>
+            <p class="msgDeErro" id="messageError"></p>
+            <p class="msgSuccess" id="messageSuccess"></p>
+            <button id="calcular" type="submit"><b>RESULTADO</b></button>                        
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
